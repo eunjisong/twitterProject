@@ -27,6 +27,7 @@ function add (name, content) {
     const awesome_adj = ['awesome', 'breathtaking', 'amazing', 'funny', 'sweet', 'cool', 'wonderful', 'mindblowing', 'impressive'];
     return "Fullstack Academy is " + randArrayEl(awesome_adj) + "! The instructors are just so " + randArrayEl(awesome_adj) + ". #fullstacklove #codedreams";
   };
+  
   module.exports = {add, list, find, getFakeName, getFakeTweet, data};
 
 
